@@ -54,4 +54,13 @@ python scripts/markdown_to_docx.py examples/Grade_7_Geography/如何表現地形
 python -m unittest discover -s tests -v
 ```
 
+## 授權 (License)
+
+| 內容 | 授權 | 檔案 |
+|---|---|---|
+| 本 repo 的程式碼（`scripts/`、`tests/`、`*.py`、腳本與設定檔） | **MIT** | [LICENSE](LICENSE) |
+| 本 repo 的文件與素材（`*.md`、技能提示詞、範本文檔、教學素材） | **CC BY-NC 4.0**（姓名標示、非商業性） | [LICENSE-docs.md](LICENSE-docs.md) |
+
+fork 或轉載時請保留此授權規範。教師運用本 repo 產出之個人原創教學教案成果，可自由應用於學校課堂與教學公開分享。
+
 原始來源：[moodlela914/RedFlame-AI-Lesson-Planner](https://github.com/moodlela914/RedFlame-AI-Lesson-Planner)。原作者署名與既有教材保留。擴充版儲存庫：[RedFlame-Multi-Template-Lesson-Planner](https://github.com/moodlela914/RedFlame-Multi-Template-Lesson-Planner)。
