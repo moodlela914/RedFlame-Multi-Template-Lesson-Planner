@@ -1,0 +1,37 @@
+name: "紅焰教學 - 多範本備課助理"
+description: "支援數位與 AI 指引及資訊議題跨域兩種教案格式。"
+author: "紅焰教學"
+version: "2.0.0"
+platform: "Agent Skill / AntiGravity"
+inputs:
+  - name: "lesson_duration"
+    type: "string"
+    required: true
+  - name: "grade_and_subject"
+    type: "string"
+    required: true
+  - name: "lesson_topic"
+    type: "string"
+    required: true
+  - name: "template_id"
+    type: "string"
+    options: ["digital-ai", "cross-domain"]
+    required: true
+  - name: "minutes_per_period"
+    type: "integer"
+    required: true
+  - name: "designer"
+    type: "string"
+    required: false
+template_registry: "templates/profiles.json"
+shared_prompt: "system_prompt.md"
+output_format: "json + docx (optional markdown preview)"
+knowledge_base_requirements_by_template:
+  digital-ai:
+    - "references/數位與AI教學指引.pdf"
+    - "examples/multi_template/digital-ai.json"
+    - "templates/指引教案格式.docx"
+  cross-domain:
+    - "templates/資訊議題跨域教案(空白).docx"
+    - "examples/multi_template/cross-domain.json"
+# 此檔描述宿主介面需求，並非可獨立執行的模型服務設定。

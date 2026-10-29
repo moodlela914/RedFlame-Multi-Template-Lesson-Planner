@@ -1,0 +1,16 @@
+{
+  "digital-ai": {
+    "name": "數位與 AI 教學指引格式（橫式 A4）",
+    "file": "templates/指引教案格式.docx",
+    "prompt": "prompts/digital-ai.md",
+    "source_shapes": [[13, 8], [15, 4], [19, 4], [15, 10]],
+    "required_fields": ["rationale", "core_competencies", "digital_prior_knowledge", "digital_ai_competencies", "learning_performance", "learning_content", "issue_integration", "connections", "objectives", "tasks", "tools", "equipment", "resources"]
+  },
+  "cross-domain": {
+    "name": "資訊議題跨域教案格式（直式 A4）",
+    "file": "templates/資訊議題跨域教案(空白).docx",
+    "prompt": "prompts/cross-domain.md",
+    "source_shapes": [[24, 9]],
+    "required_fields": ["motivation", "learning_journey", "competency_explanation", "theme_structure", "subject_prior_knowledge", "digital_prior_knowledge", "competency_dimensions", "core_competencies", "domain_competencies", "learning_performance", "learning_content", "issue_competencies", "issue_themes", "issue_content", "objectives", "assessment_strategy", "resources"]
+  }
+}
